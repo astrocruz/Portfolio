@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Monserrat", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10 px 0;
+    line-height: 1.7rem;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large {
+    font-size: 1.25rem;
+}
+
+.txt-orange {
+    color: orange;
+}
+
+.display-1 {
+    font-size: 4rem;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-round {
+    border-radius: 20px;
+}
+
+.btn-dark {
+    background: orange;
+    border: 1px orange;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: rgb(255, 196, 0);
+    color: #fff;
+}
+
+/* Main Header */
+
+.main-header {
+    background: radial-gradient(at 10% 10px, orange, #fff, #fff);
+    height: 100vh;
+}
+
+.navbar {
+    color: #fff;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar a {
+    color: #4d4d4d;
+}
+
+.navbar .logo {
+    float: left;
+    padding-top: 16px;
+    font-size: 28px;
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 196, 0);
+}
+
+.showcase {
+    padding: 80px 0;
+}
+
+.showcase-row {
+    display: flex;
+    padding: 150px o;
+}
+
+.showcase-row-title p.large {
+    padding-bottom: 18px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    padding-bottom: 30px;
+}
+
+.portfolio a {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.portfolio-row {
+    display: flex;
+}
+
+.portfolio-row img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+/* About Me */
+
+.about {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about h2 {
+    padding-bottom: 30px;
+}
+
+.about p {
+    padding-bottom: 30px;
+}
+
+/* Contact Me*/
+
+.redes {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.redes h2 {
+    padding-bottom: 30px;
+}
